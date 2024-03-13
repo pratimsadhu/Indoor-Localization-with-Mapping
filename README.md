@@ -27,7 +27,7 @@ Go to the directory where you want to clone the repository and open a terminal w
 git clone https://github.com/pratimsadhu/Indoor-Localization-with-Mapping.git
 ```
 
-After cloning the repository, rename the folder to `localizer`. Then, open the `localizer.ino` file in the Arduino IDE and upload it to the ESP32 boards. This should set up the boards to start broadcasting and observing.
+After cloning, navigate to the `localizer` directory and open the `localizer.ino` file in Arduino IDE.
 
 ## Authors
 
