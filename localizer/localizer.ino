@@ -1,14 +1,14 @@
-#include "include/wifi_controller.hpp"
-#include "include/secrets.hpp"
+#include "include/wifi_controller.h"
+#include "include/secrets.h"
 
 // The WiFiController instance
-WiFiController wifiController();
+WiFiController wifiController;
 
 void setup()
 {
     Serial.begin(9600);
     // Connect to the WiFi network
-    wifiController.connect_to(ssid, password);
+    wifiController.connect_to_wifi(ssid, password);
 }
 
 void loop()
